@@ -8,7 +8,7 @@ async function translateText() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "X-RapidAPI-Key": "9457ffb866msh3bd4bcdf85ed95fp11aba2jsn1b65a5eef418", // Replace with your RapidAPI key
+      "X-RapidAPI-Key": "YOUR-API-KEY", // Replace with your RapidAPI key
       "X-RapidAPI-Host": "ai-translate.p.rapidapi.com",
     },
     body: JSON.stringify({
