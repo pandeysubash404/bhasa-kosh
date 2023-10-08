@@ -1,0 +1,55 @@
+.imge{
+    border:2px greeen solid;
+}
+main{
+    margin-top:10%;
+}
+
+main,div {
+    display: block;
+   
+}
+.text-center {
+    text-align: center!important;
+}
+#title{
+    font-weight: 600;
+}
+#blue{
+    color:blue;
+    cursor: pointer;
+}
+
+.header{
+    height: fit-content;
+}
+
+        /* Custom CSS for Services Section */
+        .service-card {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card img {
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 10px 20px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .service-card:hover .overlay-text {
+            opacity: 1;
+        }
